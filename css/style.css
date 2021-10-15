@@ -149,27 +149,27 @@ header{
 
 /* You need to write some of your own selectors here */
 .contact{
-  grid-row: 5/ span 1;
   grid-column: 2/ span 1;
+  grid-row: 5/ span 1;
 }
 
 .contact-image{
-  grid-row: 4/ span 1;
   grid-column: 1/ -1;
   max-height: 700px;
   overflow: hidden;
+  grid-row: 5/ span 1;
 }
 
 .clients{
-  grid-row: 4/ span 1;
   grid-column: 2/ span 1;
+  grid-row: 4/ span 1;
 }
 
 .clients-image{
-  grid-row: 5/ span 1;
   grid-column: 1/ -1;
   max-height: 700px;
   overflow: hidden;
+  grid-row: 4/ span 1;
 }
 
 
@@ -217,7 +217,7 @@ header{
   }
 
   .clients{
-    grid-column: 2/ span 2;
+    grid-column: 3/ span 2;
   }
 
   .contact-image{
