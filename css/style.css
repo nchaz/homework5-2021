@@ -88,7 +88,7 @@ nav a:hover {
 }
 /* Requirement 3b code here*/
 
-* :focus{
+*:focus{
   border: 2px solid;
 }
 /* Requirement 4 code here*/
@@ -131,34 +131,23 @@ header{
 
 .about{
  top: -100;
- grid-row: 2/ span 1;
  grid-column: 2/ span 1;
+ grid-row: 2/ span 1;
 }
 
 .method-image{
- grid-row: 3/ span 1;
  grid-column: 1/ -1;
  max-height: 700px;
  overflow: hidden;
+ grid-row: 3/ span 1;
 }
 
 .method{
-  grid-row: 3/ span 1;
   grid-column: 2/ span 1;
+  grid-row: 3/ span 1;
 }
 
 /* You need to write some of your own selectors here */
-.contact{
-  grid-column: 2/ span 1;
-  grid-row: 5/ span 1;
-}
-
-.contact-image{
-  grid-column: 1/ -1;
-  max-height: 700px;
-  overflow: hidden;
-  grid-row: 5/ span 1;
-}
 
 .clients{
   grid-column: 2/ span 1;
@@ -170,6 +159,18 @@ header{
   max-height: 700px;
   overflow: hidden;
   grid-row: 4/ span 1;
+}
+
+.contact{
+  grid-column: 2/ span 1;
+  grid-row: 5/ span 1;
+}
+
+.contact-image{
+  grid-column: 1/ -1;
+  max-height: 700px;
+  overflow: hidden;
+  grid-row: 5/ span 1;
 }
 
 
@@ -190,8 +191,8 @@ header{
   }
 
   .container{
-   grid-template-rows: repeat(5, 400px);
    grid-template-columns: 50px auto 500px auto 50px;
+   grid-template-rows: repeat(5, 400px);
   }
 
   
